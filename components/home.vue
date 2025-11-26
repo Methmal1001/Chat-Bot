@@ -1,6 +1,20 @@
 <template>
   <div class="bg-gray-100 min-h-screen px-4 py-4">
     <div class="max-w-6xl mx-auto p-6 pb-0">
+
+      <!-- Advertisement Banner -->
+      <section class="bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-3xl shadow-lg p-6 mb-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div>
+          <h2 class="text-2xl sm:text-3xl font-bold">🔥 Special Offer!</h2>
+          <p class="mt-2 text-sm sm:text-base opacity-90">
+            Get 20% off on your first purchase! Limited time offer.
+          </p>
+        </div>
+        <button class="mt-4 sm:mt-0 bg-yellow-400 text-gray-900 px-6 py-3 rounded-xl font-semibold hover:bg-orange-400 transition">
+          Shop Now
+        </button>
+      </section>
+
       <!-- Header -->
       <h1 class="text-3xl font-bold text-gray-800 mb-6 text-center">
         TrendCommerce Products
@@ -22,6 +36,7 @@
           </div>
         </div>
       </div>
+      
     </div>
   </div>
 </template>
